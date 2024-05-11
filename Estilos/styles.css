@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Briem+Hand:wght@100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Briem+Hand:wght@100..900&family=Jaro:opsz@6..72&display=swap');
+
+body{
+    background-color: darkkhaki;
+    font-family: "Briem Hand", cursive;
+}
+
+#logo-site{
+    width: 120px;
+}
+
+#menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+}
+
+#links{
+    margin-right: 1%;
+    display: flex;
+    width: 45%;
+}
+
+#links a{
+    padding: 1.1%;
+    font-size: large;
+}
+
+p{
+    font-size: 2em;
+    font-weight: 100;
+    font-family: "Jaro", sans-serif;
+}

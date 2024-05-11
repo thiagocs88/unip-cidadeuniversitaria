@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="js/scripts.js"></script>
+    <title>Aprendendo JavaScript</title>
+</head>
+<body>
+
+    <h1>JavaScript</h1>
+    
+    <p>Vamos aprender alguns comandos de JavaScript.</p>
+
+    <button onclick="hello()">Clique aqui!</button>
+
+    <p ondblclick="paragrafo()">Clique duas vezes nesse parágrafo, e veja a mágica acontecer.</p>
+
+    <p id="teste"></p>
+
+    <p ondblclick="nao_clique()">Atenção: NÃO CLIQUE aqui!</p>
+
+    <p id="resposta"></p>
+
+    <p id="cores" onmousedown="apertar()" onmouseup="soltar()">Veja a mágica deste parpágrafo. Segurando o mouse, ele tem uma cor. Soltando, ele assume outra.</p>
+
+    <p id="multiplo">Preste atenção neste parágrafo: suas propriedades (mais de uma) vão mudar quando se clica no botão.</p>
+
+    <button onclick="propriedades()">Alterar Estilo do Parágrafo</button>
+
+    <hr>
+
+    <h2>Formulário de Contas</h2>
+
+    <form action="">
+        <label for="">Número 1: </label><input type="text" placeholder="Digite aqui o número 1." id="numero1" name="numero1">
+
+        <br><br>
+        <label for="">Número 2: </label><input type="text" placeholder="Digite aqui o número 2." id="numero2" name="numero2">
+
+        <br><br>
+        <label for="">Resultado:: </label><input type="text" placeholder="Aqui será exibido o Resultado." id="resultado" name="resultado">
+
+        <br><br>
+        <button onclick="somar()">Calcular</button>
+
+
+    </form>
+
+
+
+</body>
+</html>
